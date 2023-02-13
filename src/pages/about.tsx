@@ -12,6 +12,12 @@ const About = () => {
       />
       <h1>About me</h1>
       <h2>{greeting}</h2>
+      <img
+        src="https://example.com/hero.jpg"
+        alt="Landscape picture"
+        width={800}
+        height={500}
+      />
     </>
   );
 };
