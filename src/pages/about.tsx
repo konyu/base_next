@@ -18,6 +18,13 @@ const About = () => {
         width={800}
         height={500}
       />
+
+      <img
+        src="https://example.com/hero.jpg"
+        alt="Landscape picture"
+        width={800}
+        height={500}
+      />
     </>
   );
 };
