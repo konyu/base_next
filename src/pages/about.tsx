@@ -1,7 +1,10 @@
 const About = () => {
   const greeting = "hello";
 
-  console.log("foo");
+  console.log("foo")
+
+
+
   return (
     <>
       <img

@@ -1,8 +1,7 @@
-name: linter
+name: Linter
 on: [pull_request]
 jobs:
   eslint:
-    name: eslint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
