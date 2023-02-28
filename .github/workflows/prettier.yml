@@ -10,14 +10,14 @@ jobs:
       - uses: technote-space/get-diff-action@v6
         with:
           PATTERNS: |
-            ./**/*.{ts,tsx,js,jsx,json}
+            **/*.{ts,tsx,js,jsx,json}
       - uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: "npm"
       - name: Run Prettier
         run: |
-          npm install
+          npm ci
           npx prettier --write ${{ env.GIT_DIFF_FILTERED }}
         if: env.GIT_DIFF
       - uses: stefanzweifel/git-auto-commit-action@v4
