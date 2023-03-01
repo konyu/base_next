@@ -1,6 +1,8 @@
 const About = () => {
   const greeting = "hello";
 
+  console.log("foo");
+
   return (
     <>
       <h1>About me</h1>
